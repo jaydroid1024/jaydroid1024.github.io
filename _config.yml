@@ -11,17 +11,19 @@ github_repo: "https://github.com/Jay-Droid/Jay-Droid.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "当你停止尝试时，就是失败的时候"
 sidebar-avatar: /img/jay_me.jpeg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
-RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     JayDroid
-github_username:    JayDroid
-#twitter_username:   qiubaiying
+RSS: true
+github_username:    Jay-Droid
+zhihu_username:     jaydroid
+jianshu:            ca4474939799
+
+#QRcode 首页二维码设置
+QRcode: true
 
 
 
@@ -95,9 +97,9 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "简书·BY",
-        href: "https://www.jianshu.com/u/ca4474939799"
-    }
-]
+# friends: [
+#     {
+#         title: "简书·BY",
+#         href: "https://www.jianshu.com/u/ca4474939799"
+#     }
+# ]
