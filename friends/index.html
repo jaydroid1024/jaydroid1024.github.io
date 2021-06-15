@@ -15,7 +15,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N498NKZS3G"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -23,7 +23,7 @@
     }
 
     gtag('js', new Date());
-    gtag('config', '');
+    gtag('config', 'G-N498NKZS3G');
 </script>
 
 
@@ -618,33 +618,33 @@
         <div class="card">
 
             
-            <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
-<link rel="stylesheet" href="/css/my-gitalk.css">
 
-<div class="card gitalk-card" data-aos="fade-up">
+            
+            <link rel="stylesheet" href="/libs/gitment/gitment-default.css">
+<link rel="stylesheet" href="/css/gitment.css">
+
+<div class="gitment-card card" data-aos="fade-up">
     <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
         <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
         <span>评论</span>
     </div>
-    <div id="gitalk-container" class="card-content"></div>
+    <div id="gitment-content" class="card-content"></div>
 </div>
 
-<script src="/libs/gitalk/gitalk.min.js"></script>
+<script src="/libs/gitment/gitment.js"></script>
 <script>
-    let gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: null,
-        id: '2018-12-12T21-25-30',
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    });
+var gitment = new Gitment({
+    id: 'Wed Dec 12 2018 21:25:30 GMT+0800',
+    owner: 'jaydroid1024',
+    repo: 'hexo_blog_repo',
+    oauth: {
+        client_id: '4c4d58f27f5177dff57c',
+        client_secret: 'c9fce45c9250437cb34e3a7755c4135df47aa65b'
+    }
+});
 
-    gitalk.render('gitalk-container');
+gitment.render('gitment-content');
 </script>
-
-            
 
             
 
@@ -865,7 +865,7 @@ $(function () {
     var _hmt = _hmt || [];
     (function () {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?";
+        hm.src = "https://hm.baidu.com/hm.js?88efcea1b43fcd428172af2f7305f80e";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
     })();
