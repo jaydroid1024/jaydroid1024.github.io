@@ -6,7 +6,7 @@
   <link href="http://www.basedev.cn/atom.xml" rel="self"/>
   
   <link href="http://www.basedev.cn/"/>
-  <updated>2020-05-04T09:33:24.103Z</updated>
+  <updated>2021-07-31T06:19:05.887Z</updated>
   <id>http://www.basedev.cn/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JDispatcher-Android组件生命周期分发框架</title>
+    <link href="http://www.basedev.cn/2021/07/31/jdispatcher/"/>
+    <id>http://www.basedev.cn/2021/07/31/jdispatcher/</id>
+    <published>2021-07-31T06:16:55.000Z</published>
+    <updated>2021-07-31T06:19:05.887Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;JDispatcher&quot;&gt;&lt;a href=&quot;#JDispatcher&quot; class=&quot;headerlink&quot; title=&quot;JDispatcher&quot;&gt;&lt;/a&gt;JDispatcher&lt;/h1&gt;&lt;p&gt;Android</summary>
+        
+      
+    
+    
+    
+    
+    <category term="组件化" scheme="http://www.basedev.cn/tags/%E7%BB%84%E4%BB%B6%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://www.basedev.cn/2020/05/04/hello-world/"/>
     <id>http://www.basedev.cn/2020/05/04/hello-world/</id>
     <published>2020-05-04T08:32:57.519Z</published>
-    <updated>2020-05-04T09:33:24.103Z</updated>
+    <updated>2021-06-15T14:46:11.106Z</updated>
     
     
       
