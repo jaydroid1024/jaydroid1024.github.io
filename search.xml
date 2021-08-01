@@ -72,6 +72,33 @@
     
     
     <entry>
+      <title>筑基系列-Android基础知识小抄版（更新中...）</title>
+      <link href="2021/07/31/android-base/"/>
+      <url>2021/07/31/android-base/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/jaydroid1024/jay_image_repo/main/img/post_banner_jay.png" alt=""></p><h1 id="筑基系列-Android基础知识小抄版"><a href="#筑基系列-Android基础知识小抄版" class="headerlink" title="筑基系列-Android基础知识小抄版"></a>筑基系列-Android基础知识小抄版</h1><p>Android各版本对应JDK版本</p><table><thead><tr><th align="left">平台版本</th><th align="left">版本名称</th><th align="left">SDK版本</th><th align="left">市场占有率</th><th align="left">JDK版本</th></tr></thead><tbody><tr><td align="left">2.3.3 - 2.3.7</td><td align="left">Gingerbread</td><td align="left">10</td><td align="left">0.4%</td><td align="left">6</td></tr><tr><td align="left">4.0.3 - 4.0.4</td><td align="left">Ice Cream Sandwich</td><td align="left">15</td><td align="left">0.5%</td><td align="left">6</td></tr><tr><td align="left">4.1.x</td><td align="left">Jelly Bean</td><td align="left">16</td><td align="left">2.0%</td><td align="left">6</td></tr><tr><td align="left">4.2.x</td><td align="left">Jelly Bean</td><td align="left">17</td><td align="left">3.0%</td><td align="left">6</td></tr><tr><td align="left">4.3</td><td align="left">Jelly Bean</td><td align="left">18</td><td align="left">0.9%</td><td align="left">6</td></tr><tr><td align="left">4.4</td><td align="left">KitKat</td><td align="left">19</td><td align="left">13.4%</td><td align="left">6</td></tr><tr><td align="left">5.0</td><td align="left">Lollipop</td><td align="left">21</td><td align="left">6.1%</td><td align="left">7</td></tr><tr><td align="left">5.1</td><td align="left">Lollipop</td><td align="left">22</td><td align="left">20.2%</td><td align="left">7</td></tr><tr><td align="left">6.0</td><td align="left">Marshmallow</td><td align="left">23</td><td align="left">29.7%</td><td align="left">7</td></tr><tr><td align="left">7.0</td><td align="left">Nougat</td><td align="left">24</td><td align="left">19.3%</td><td align="left">7</td></tr><tr><td align="left">7.1</td><td align="left">Nougat</td><td align="left">25</td><td align="left">4.0%</td><td align="left">7</td></tr><tr><td align="left">8.0</td><td align="left">Oreo</td><td align="left">26</td><td align="left">0.5%</td><td align="left">8</td></tr></tbody></table><h1 id="1-Java"><a href="#1-Java" class="headerlink" title="1.Java"></a>1.Java</h1><h2 id="1-1-集合"><a href="#1-1-集合" class="headerlink" title="1.1 集合"></a>1.1 集合</h2><h4 id="1-1-1-ArrayList和LinkedList区别"><a href="#1-1-1-ArrayList和LinkedList区别" class="headerlink" title="1.1.1 ArrayList和LinkedList区别"></a>1.1.1 ArrayList和LinkedList区别</h4><ul><li><p><a href="http://androidos.net.cn/android/9.0.0_r8/xref/libcore/ojluni/src/main/java/java/util/ArrayList.java" target="_blank" rel="noopener">ArrayList 源码</a></p></li><li><p><a href="http://androidos.net.cn/android/9.0.0_r8/xref/libcore/ojluni/src/main/java/java/util/LinkedList.java" target="_blank" rel="noopener">LinkedList 源码</a></p></li><li><p>⾸先，他们的底层数据结构不同，ArrayList底层是基于数组实现的，LinkedList底层是基于链表实现的</p></li><li><p>由于底层数据结构不同，他们所适⽤的场景也不同，ArrayList更适合随机查找，LinkedList更适合删除和添加，查询、添加、删除的时间复杂度不同</p></li><li><p>另外ArrayList和LinkedList都实现了List接⼝，但是LinkedList还额外实现了Deque接⼝，所以LinkedList还可以当做队列来使⽤</p></li></ul><h4 id="1-1-2-HashMap的Put⽅法的⼤体流程"><a href="#1-1-2-HashMap的Put⽅法的⼤体流程" class="headerlink" title="1.1.2 HashMap的Put⽅法的⼤体流程"></a>1.1.2 HashMap的Put⽅法的⼤体流程</h4><ul><li><a href="http://androidos.net.cn/android/9.0.0_r8/xref/libcore/ojluni/src/main/java/java/util/HashMap.java" target="_blank" rel="noopener">HashMap 源码1.8</a></li><li><a href="http://androidos.net.cn/android/7.1.1_r28/xref/libcore/ojluni/src/main/java/java/util/HashMap.java" target="_blank" rel="noopener">HashMap 源码1.7</a></li><li>根据Key通过哈希算法与与运算得出数组下标</li><li>如果数组下标位置元素为空，则将key和value封装为Entry对象（JDK1.7中是Entry对象，JDK1.8中是Node对象）并放⼊该位置</li><li>如果数组下标位置元素不为空，则要分情况讨论<ul><li>如果是JDK1.7，则先判断是否需要扩容，如果要扩容就进⾏扩容，如果不⽤扩容就⽣成Entry对象，并使⽤头插法添加到当前位置的链表中</li><li>如果是JDK1.8，则会先判断当前位置上的Node的类型，看是红⿊树Node，还是链表Node<ul><li>如果是红⿊树Node，则将key和value封装为⼀个红⿊树节点并添加到红⿊树中去，在这个过程中会判断红⿊树中是否存在当前key，如果存在则更新value</li><li>如果此位置上的Node对象是链表节点，则将key和value封装为⼀个链表Node并通过尾插法插⼊到链表的最后位置去，因为是尾插法，所以需要遍历链表，在遍历链表的过程中会判断是否存在当前key，如果存在则更新value，当遍历完链表后，将新链表Node插⼊到链表中，插⼊到链表后，会看当前链表的节点个数，如果⼤于等于8，那么则会将该链表转成红⿊树</li><li>将key和value封装为Node插⼊到链表或红⿊树中后，再判断是否需要进⾏扩容，如果需要就<br>扩容，如果不需要就结束PUT⽅法</li></ul></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Android </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Android </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>筑基系列-操作系统基础知识小抄版</title>
       <link href="2021/07/01/computer-os/"/>
       <url>2021/07/01/computer-os/</url>
