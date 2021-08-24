@@ -6,7 +6,7 @@
   <link href="http://www.basedev.cn/atom.xml" rel="self"/>
   
   <link href="http://www.basedev.cn/"/>
-  <updated>2021-07-31T10:43:09.691Z</updated>
+  <updated>2021-08-24T00:21:07.761Z</updated>
   <id>http://www.basedev.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.basedev.cn/2021/07/31/jdispatcher/"/>
     <id>http://www.basedev.cn/2021/07/31/jdispatcher/</id>
     <published>2021-07-31T06:16:55.000Z</published>
-    <updated>2021-07-31T10:43:09.691Z</updated>
+    <updated>2021-08-24T00:21:07.761Z</updated>
     
     
       
@@ -208,6 +208,32 @@
     
     
     <category term="设计模式" scheme="http://www.basedev.cn/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>筑基系列-JVM基础知识小抄版</title>
+    <link href="http://www.basedev.cn/2020/07/31/java-jvm/"/>
+    <id>http://www.basedev.cn/2020/07/31/java-jvm/</id>
+    <published>2020-07-31T06:16:55.000Z</published>
+    <updated>2021-08-24T00:23:44.297Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/jaydroid1024/jay_image_repo/main/img/post_banner_jay.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="框架" scheme="http://www.basedev.cn/categories/%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="JVM" scheme="http://www.basedev.cn/tags/JVM/"/>
     
   </entry>
   
