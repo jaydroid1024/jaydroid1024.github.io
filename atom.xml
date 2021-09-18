@@ -274,6 +274,38 @@
   </entry>
   
   <entry>
+    <title>实战系列-设计模式总则篇</title>
+    <link href="http://www.basedev.cn/2021/05/31/kotlin-delegate/"/>
+    <id>http://www.basedev.cn/2021/05/31/kotlin-delegate/</id>
+    <published>2021-05-31T06:16:55.000Z</published>
+    <updated>2021-09-18T17:58:01.565Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/jaydroid1024/jay_image_repo/main/img/post_banner_jay.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="Kotlin" scheme="http://www.basedev.cn/categories/Kotlin/"/>
+    
+    
+    <category term="ViewBinding" scheme="http://www.basedev.cn/tags/ViewBinding/"/>
+    
+    <category term="Kotlin 委托" scheme="http://www.basedev.cn/tags/Kotlin-%E5%A7%94%E6%89%98/"/>
+    
+    <category term="属性委托" scheme="http://www.basedev.cn/tags/%E5%B1%9E%E6%80%A7%E5%A7%94%E6%89%98/"/>
+    
+    <category term="ViewModel" scheme="http://www.basedev.cn/tags/ViewModel/"/>
+    
+  </entry>
+  
+  <entry>
     <title>筑基系列-JVM基础知识小抄版</title>
     <link href="http://www.basedev.cn/2020/07/31/java-jvm/"/>
     <id>http://www.basedev.cn/2020/07/31/java-jvm/</id>
