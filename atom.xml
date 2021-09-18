@@ -6,7 +6,7 @@
   <link href="http://www.basedev.cn/atom.xml" rel="self"/>
   
   <link href="http://www.basedev.cn/"/>
-  <updated>2021-08-24T00:21:07.761Z</updated>
+  <updated>2021-09-18T18:00:13.917Z</updated>
   <id>http://www.basedev.cn/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kotlin | 委托(Delegation﻿)详解</title>
+    <link href="http://www.basedev.cn/2021/08/31/kotlin-delegate/"/>
+    <id>http://www.basedev.cn/2021/08/31/kotlin-delegate/</id>
+    <published>2021-08-31T06:16:55.000Z</published>
+    <updated>2021-09-18T18:00:13.917Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/jaydroid1024/jay_image_repo/main/img/post_banner_jay.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="Kotlin" scheme="http://www.basedev.cn/categories/Kotlin/"/>
+    
+    
+    <category term="ViewBinding" scheme="http://www.basedev.cn/tags/ViewBinding/"/>
+    
+    <category term="Kotlin 委托" scheme="http://www.basedev.cn/tags/Kotlin-%E5%A7%94%E6%89%98/"/>
+    
+    <category term="属性委托" scheme="http://www.basedev.cn/tags/%E5%B1%9E%E6%80%A7%E5%A7%94%E6%89%98/"/>
+    
+    <category term="ViewModel" scheme="http://www.basedev.cn/tags/ViewModel/"/>
+    
+  </entry>
   
   <entry>
     <title>JDispatcher-Android组件生命周期分发框架</title>
@@ -270,38 +302,6 @@
     <category term="ViewBinding" scheme="http://www.basedev.cn/tags/ViewBinding/"/>
     
     <category term="VBHelper" scheme="http://www.basedev.cn/tags/VBHelper/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>实战系列-设计模式总则篇</title>
-    <link href="http://www.basedev.cn/2021/05/31/kotlin-delegate/"/>
-    <id>http://www.basedev.cn/2021/05/31/kotlin-delegate/</id>
-    <published>2021-05-31T06:16:55.000Z</published>
-    <updated>2021-09-18T17:58:01.565Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/jaydroid1024/jay_image_repo/main/img/post_banner_jay.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h1</summary>
-        
-      
-    
-    
-    
-    <category term="Kotlin" scheme="http://www.basedev.cn/categories/Kotlin/"/>
-    
-    
-    <category term="ViewBinding" scheme="http://www.basedev.cn/tags/ViewBinding/"/>
-    
-    <category term="Kotlin 委托" scheme="http://www.basedev.cn/tags/Kotlin-%E5%A7%94%E6%89%98/"/>
-    
-    <category term="属性委托" scheme="http://www.basedev.cn/tags/%E5%B1%9E%E6%80%A7%E5%A7%94%E6%89%98/"/>
-    
-    <category term="ViewModel" scheme="http://www.basedev.cn/tags/ViewModel/"/>
     
   </entry>
   
