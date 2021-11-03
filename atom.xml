@@ -220,7 +220,7 @@
     <link href="http://www.basedev.cn/2021/05/31/computer-composition/"/>
     <id>http://www.basedev.cn/2021/05/31/computer-composition/</id>
     <published>2021-05-31T06:16:55.000Z</published>
-    <updated>2021-08-01T10:04:05.902Z</updated>
+    <updated>2021-11-03T16:56:10.645Z</updated>
     
     
       
@@ -310,23 +310,21 @@
     <link href="http://www.basedev.cn/2020/11/15/code-all/"/>
     <id>http://www.basedev.cn/2020/11/15/code-all/</id>
     <published>2020-11-14T20:33:05.490Z</published>
-    <updated>2021-11-03T16:48:22.210Z</updated>
+    <updated>2021-11-03T16:59:22.847Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;details&gt;    
-  &lt;summary&gt; &lt;b&gt; Solution2：两次循环+栈，时间：O(N),空间：O(N) &lt;/b&gt;&lt;/summary&gt;      
-   &lt;pre&gt;&lt;code&gt;
-    代码
-  &lt;/code&gt;&lt;/pre&gt;
-&lt;/details&gt;
-
-
-
-&lt;h3</summary>
+    <summary type="html">&lt;pre&gt;&lt;code&gt;title: 筑基系列-算法大全（更新中...）
+date: 2021-10-31 14:16:55
+cover: true
+tags: 
+    - 算法
+category: 
+        - 算法
+summary:</summary>
         
       
     
