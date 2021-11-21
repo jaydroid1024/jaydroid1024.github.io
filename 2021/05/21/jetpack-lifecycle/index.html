@@ -533,7 +533,7 @@
 </tr>
 </tbody></table>
 <p>再来看一下其中的几个核心组件之间的依赖关系</p>
-<p><img src="/Users/xuejiewang/Desktop/WechatIMG77.jpeg" alt="WechatIMG77"></p>
+<p><img src="https://raw.githubusercontent.com/jaydroid1024/jay_image_repo/main/img/20211122011323.jpeg" alt="WechatIMG77"></p>
 <p>开发时按需添加 Lifecycle 的依赖项</p>
 <pre class=" language-groovy"><code class="language-groovy"><span class="token keyword">def</span> lifecycle_version <span class="token operator">=</span> <span class="token string">"2.4.0"</span>
 <span class="token comment" spellcheck="true">// ViewModel</span>
@@ -572,7 +572,7 @@ implementation <span class="token string">"androidx.lifecycle:lifecycle-reactive
 <p><img src="https://raw.githubusercontent.com/jaydroid1024/jay_image_repo/main/img/20211121134326.png" alt="image-20211121131315450"></p>
 <p>依赖 core-ktx 间接依赖的 lifecycle 系组件</p>
 <p><img src="https://raw.githubusercontent.com/jaydroid1024/jay_image_repo/main/img/20211121134339.png" alt="image-20211121131403284"></p>
-<h2 id="4-生命周期感知型组件的应用"><a href="#4-生命周期感知型组件的应用" class="headerlink" title="4. 生命周期感知型组件的应用"></a>4. 生命周期感知型组件的应用</h2><p>生命周期感知型组件可以实现在各种情况下更轻松地管理生命周期。下面列举几个例子：</p>
+<h2 id="4-Lifecycle-应用"><a href="#4-Lifecycle-应用" class="headerlink" title="4. Lifecycle 应用"></a>4. Lifecycle 应用</h2><p>生命周期感知型组件可以实现在各种情况下更轻松地管理生命周期。下面列举几个例子：</p>
 <ul>
 <li>在粗粒度和细粒度位置更新之间切换。使用生命周期感知型组件可在位置应用可见时启用细粒度位置更新，并在应用位于后台时切换到粗粒度更新。</li>
 <li>停止和开始视频缓冲。使用生命周期感知型组件可尽快开始视频缓冲，但会推迟播放，直到应用完全启动。此外，应用销毁后，还可以使用生命周期感知型组件终止缓冲。</li>
